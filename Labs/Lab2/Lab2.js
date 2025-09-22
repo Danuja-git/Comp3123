@@ -7,7 +7,7 @@ const greetPeople = (people) => {
   }
   return lines;
 };
-console.log("Ex1:", greetPeople(["Danuja", "Gia", "Nirja"]).join(" | "));
+console.log("Ex1:", greetPeople(["Gia", "Riya", "Nirja"]).join(" | "));
 
 //q2:
 const capitalize = (str = "") => {
@@ -19,7 +19,7 @@ const capitalize = (str = "") => {
 console.log("Ex2:", capitalize("hello world"));
 
 //q3:
-const colors = ["red", "green", "blue", "teal", "magenta"];
+const colors = ["red", "yellow", "blue", "teal", "magenta"];
 const capitalizedColors = colors.map(capitalize);
 
 console.log("Ex3:", capitalizedColors);
